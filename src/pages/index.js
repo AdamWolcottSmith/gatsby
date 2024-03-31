@@ -1,14 +1,15 @@
 import React from "react";
+import Layout from "../components/layout";
 // import { Link } from "gatsby";
-import Footer from "../components/footer";
-import NavBar from "../components/navbar";
+// import Footer from "../components/footer";
+// import NavBar from "../components/navbar";
 
 const IndexPage = () => {
   return (
     <div>
-      <NavBar />
-      <p>HOME PAGE</p>
-      <Footer />
+      <Layout>
+        <h1>HOME PAGE</h1>
+      </Layout>
     </div>
   );
 };

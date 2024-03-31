@@ -1,13 +1,12 @@
 import React from "react";
-import Footer from "../components/footer";
-import NavBar from "../components/navbar";
+import Layout from "../components/layout";
 
 const WorkPage = () => {
   return (
     <div>
-      <NavBar />
-      <h1>Work</h1>
-      <Footer />
+      <Layout>
+        <h1>WORK PAGE</h1>
+      </Layout>
     </div>
   );
 };

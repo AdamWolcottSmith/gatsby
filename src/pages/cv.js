@@ -1,13 +1,12 @@
 import React from "react";
-import Footer from "../components/footer";
-import NavBar from "../components/navbar";
+import Layout from "../components/layout";
 
 const CvPage = () => {
   return (
     <div>
-      <NavBar />
-      <h1>CV</h1>
-      <Footer />
+      <Layout>
+        <h1>CV PAGE</h1>
+      </Layout>
     </div>
   );
 };

@@ -1,14 +1,12 @@
 import React from "react";
-import Footer from "../components/footer";
-import NavBar from "../components/navbar";
+import Layout from "../components/layout";
 
 const ContactPage = () => {
   return (
     <div>
-      <NavBar />
-      <h1>Contact</h1>
-      <p>Reach me here:</p>
-      <Footer />
+      <Layout>
+        <h1>CONTACT PAGE</h1>
+      </Layout>
     </div>
   );
 };
