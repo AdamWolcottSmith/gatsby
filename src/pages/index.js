@@ -1,8 +1,5 @@
 import React from "react";
 import Layout from "../components/layout";
-// import { Link } from "gatsby";
-// import Footer from "../components/footer";
-// import NavBar from "../components/navbar";
 
 const IndexPage = () => {
   return (
