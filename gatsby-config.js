@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gatsby`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Pain Annihilator`,
+    siteUrl: `https://www.painannihilator.com`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
